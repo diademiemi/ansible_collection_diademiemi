@@ -1,0 +1,11 @@
+ancestor: null
+releases:
+  1.0.0:
+    changes:
+      major_changes:
+      - Add extract_git_path filter
+      - Add get_relative_git_file filter
+      release_summary: Add filters used in vm_utils collection
+    fragments:
+    - filters.yml
+    release_date: '2024-04-29'
